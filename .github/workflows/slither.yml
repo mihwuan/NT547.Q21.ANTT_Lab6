@@ -14,5 +14,5 @@ jobs:
     - name: Run Slither Analyzer
       uses: crytic/slither-action@v0.3.0
       with:
-        target: 'BadVault.sol'
+        target: 'GoodVault.sol'
         fail-on: 'high'
